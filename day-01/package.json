@@ -1,0 +1,25 @@
+{
+  "name": "advent-of-code-2021-day-01",
+  "version": "1.0.0",
+  "description": "Collection of challenge solutions from https://adventofcode.com/2021",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aileen-r/advent-of-code-2021.git"
+  },
+  "author": "Aileen Rae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aileen-r/advent-of-code-2021/issues"
+  },
+  "homepage": "https://github.com/aileen-r/advent-of-code-2021#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+    "jest": "^27.4.3"
+  }
+}
