@@ -1,7 +1,4 @@
-import * as fs from 'fs';
-
-const txtFileLinesToArray = filepath =>
-  fs.readFileSync(filepath).toString().split('\n');
+import {txtFileLinesToArray} from '../shared.js';
 
 const countDepthMeasurementIncreases = measurements => {
   let prev;
