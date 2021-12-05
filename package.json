@@ -1,11 +1,11 @@
 {
-  "name": "advent-of-code-2021-day-01",
+  "name": "advent-of-code-2021",
   "version": "1.0.0",
   "description": "Collection of challenge solutions from https://adventofcode.com/2021",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node day-%npm_config_day%/index.js",
     "test": "jest",
     "test:watch": "jest --watch"
   },

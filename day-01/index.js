@@ -30,7 +30,7 @@ const countSlidingWindowIncreases = (measurements, window = 3) => {
 
 const run = () => {
   // Part 1
-  const filepath = './data/challenge.txt';
+  const filepath = './day-01/data/challenge.txt';
   const measurements = txtFileLinesToArray(filepath).map(line =>
     parseInt(line, 10)
   );
