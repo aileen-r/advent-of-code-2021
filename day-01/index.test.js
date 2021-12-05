@@ -1,8 +1,8 @@
+import { countDepthMeasurementIncreases } from './index.js';
 
-import run from './index.js';
-const consoleSpy = jest.spyOn(console, 'log');
+const testData = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263];
 
-it("returns 'hello world'", () => {
-  run();
-  expect(consoleSpy).toHaveBeenCalledWith('hello world');
-})
+it("calculates correct no. increases from example data", () => {
+  const increaseCount = countDepthMeasurementIncreases(testData);
+  expect(increaseCount).toEqual(7);
+});
