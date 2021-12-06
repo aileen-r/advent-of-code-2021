@@ -1,4 +1,5 @@
-import { expect } from "@jest/globals";
+import { expect } from '@jest/globals';
+import { day02 } from './index.js';
 
 const testData = [
   'forward 5',
@@ -10,6 +11,6 @@ const testData = [
 ];
 
 it('Part 1: calculates correct product of position and depth from example', () => {
-  const finalProduct = 0;
+  const finalProduct = day02(testData);
   expect(finalProduct).toEqual(150);
 });
