@@ -1,5 +1,5 @@
 import { expect } from '@jest/globals';
-import { day02 } from './index.js';
+import { day02, day02Part2 } from './index.js';
 
 const testData = [
   'forward 5',
@@ -14,3 +14,8 @@ it('Part 1: calculates correct product of position and depth from example', () =
   const finalProduct = day02(testData);
   expect(finalProduct).toEqual(150);
 });
+
+it('Part 2: calculates correct product of position and depth from example', () => {
+  const finalProduct = day02Part2(testData);
+  expect(finalProduct).toEqual(900);
+})
