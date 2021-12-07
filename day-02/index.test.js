@@ -18,4 +18,4 @@ it('Part 1: calculates correct product of position and depth from example', () =
 it('Part 2: calculates correct product of position and depth from example', () => {
   const finalProduct = day02Part2(testData);
   expect(finalProduct).toEqual(900);
-})
+});

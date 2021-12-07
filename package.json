@@ -7,7 +7,9 @@
   "scripts": {
     "start": "node day-%npm_config_day%/index.js",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "lint": "eslint **/*.{jsx,js}",
+    "lint:fix": "eslint **/*.{jsx,js} --fix  && prettier --write **/*.json"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,11 @@
   "homepage": "https://github.com/aileen-r/advent-of-code-2021#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.16.0",
-    "jest": "^27.4.3"
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.4.3",
+    "prettier": "^2.5.1"
   }
 }

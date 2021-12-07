@@ -1,4 +1,4 @@
-import {txtFileLinesToArray} from '../shared.js';
+import { txtFileLinesToArray } from '../shared.js';
 
 const countDepthMeasurementIncreases = measurements => {
   let prev;
