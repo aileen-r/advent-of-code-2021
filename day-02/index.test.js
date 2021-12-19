@@ -1,4 +1,3 @@
-import { expect } from '@jest/globals';
 import { day02, day02Part2 } from './index.js';
 
 const testData = [
