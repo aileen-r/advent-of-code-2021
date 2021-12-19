@@ -1,4 +1,4 @@
-import { txtFileLinesToArray } from '../shared';
+import { txtFileLinesToArray } from '../shared.js';
 
 const dayTemplate = input => {
   return undefined;
