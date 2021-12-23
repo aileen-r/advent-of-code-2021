@@ -30,5 +30,5 @@ it('Part 1:', () => {
 
 it('Part 2:', () => {
   const part2Result = day04Part2(testData);
-  expect(part2Result).toEqual(undefined);
+  expect(part2Result).toEqual(1924);
 });
